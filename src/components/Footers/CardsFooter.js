@@ -39,7 +39,7 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
+          {/* <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
@@ -62,9 +62,9 @@ class CardsFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
           <Container>
-            <Row className="row-grid align-items-center my-md">
+            {/* <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
                   Thank you for supporting us!
@@ -131,22 +131,23 @@ class CardsFooter extends React.Component {
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
-            </Row>
+            </Row> */}
             <hr />
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
-                  © {new Date().getFullYear()}{" "}
+                  <p> © Copyright 2021 </p>
+                  {/* © {new Date().getFullYear()}{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
                     Creative Tim
-                  </a>
-                  .
+                  </a> */}
+                  
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -181,7 +182,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
